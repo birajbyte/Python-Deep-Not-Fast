@@ -1,9 +1,9 @@
-# Day 16
+# Day 15
 # 1.Find LCM of two numbers
 # least common multiple means when two number can be at same point
 num1 = int(input("Enter the number "))
 num2 = int(input("Enter the number "))
-for i in range(1,100):# 3 & 4 lcm is 12 so i check another find
+for i in range(1,num1 * num2):# 3 & 4 lcm is 12 so i check another find
     a= num1 * i
     if a % num2 == 0:
         print(f"LCM IS {a}")
@@ -31,7 +31,6 @@ for new in lst:
         count -= 1
 # verify candidate is actual majority
 print(f"Majority element is {candidate}")
-
 if lst.count(candidate) > len(lst) // 2:#list.count(el) is method in LIst
     print(f"Majority element is {candidate}")
 else:
