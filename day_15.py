@@ -18,7 +18,6 @@ for key , value in dic.items():
     if value > n:
         print(f"Element found apeared  {value} times is {key}")
         break
-
 # Boyer-Moore Voting Algorithm
 candidate = None
 count = 0
@@ -37,7 +36,6 @@ if lst.count(candidate) > len(lst) // 2:#list.count(el) is method in LIst
     print(f"Majority element is {candidate}")
 else:
     print("No majority element exists")
-
 # 3.list Separate odd and even numbers keeping order
 original = [3, 1, 4, 1, 5, 9, 2, 6]
 even = []
