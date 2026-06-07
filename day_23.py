@@ -1,14 +1,14 @@
 # 1. dict Group anagrams together from a list of words
-# words = ["eat", "tea", "tan", "ate", "nat", "bat"]
-# dic = {}
-# for word in words:
-#     key = "".join(sorted(word))
-#     if key in dic:
-#         dic[key] += [word]
-#     else:
-#         dic[key] = [word]
-# print(dic)
-#Easy way 
+words = ["eat", "tea", "tan", "ate", "nat", "bat"]
+dic = {}
+for word in words:
+    key = "".join(sorted(word))
+    if key in dic:
+        dic[key] += [word]
+    else:
+        dic[key] = [word]
+print(dic)
+# Easy way 
 words = ["eat", "tea", "tan", "ate", "nat", "bat"]
 dic = {}
 for word in words:
